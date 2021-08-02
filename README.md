@@ -1,6 +1,6 @@
 ## input_verification
 Doesn't it suck when people ask you to sanitize your input and then you have to write a bunch of excessive code on your program?
-This project aims to add an input verification function for every basic types in C, so you won't have to do that in most cases.
+This project aims to add an input verification function for every basic data type in C, so you won't have to waste your time on these petty things.
 
 ### How does it work?
 My goal is making a function for every data type that looks like this: 
