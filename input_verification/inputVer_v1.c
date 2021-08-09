@@ -51,15 +51,16 @@ int inputVerInt(char prompt[100])
 	//main loop
 	do
 	{
-		printf("%s", prompt);
-		scanf(" %s", &scan);
+		printf("%s", prompt);//prompt print
+		fgets(scan, 100, stdin); //dirty user input
 		
-		if(atoi(scan) != 0 || strcmp(scan, "0") == 0) //if the input is an integer
+		//sanitization
+		if(atoi(scan) != 0 || strcmp(scan, "0") == 0) //user input accepted(is an int)
 		{
 			scanFinal = atoi(scan); //transforms the string into an int
 			exit = 1; //ends loop
 			
-		}else
+		}else //user input rejected
 		{
 			printf("Invalid input! Please try again!\n");
 		}
