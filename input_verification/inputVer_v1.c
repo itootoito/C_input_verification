@@ -93,14 +93,14 @@ double inputVerDouble(char prompt[100])
         fgets(scan, 100, stdin); //dirty user input
 
         //sanitization
-        if(atof(scan) != 0) //user input accepted(is an int)
+        if(atof(scan) != 0) //user input accepted(is a double)
 		{
-			scanFinal = atof(scan); //transforms the string into an int
+			scanFinal = atof(scan); //transforms the string into a double
 			exit = 1; //ends loop
                  
         }else if(strcmp(scan, "0\n") == 0 || strcmp(scan, "0.000000\n") == 0 || strcmp(scan, "0.0\n") == 0)
         {
-            scanFinal = atof(scan); //transforms the string into an int
+            scanFinal = atof(scan); //transforms the string into a double
 			exit = 1; //ends loop
 
         }else //user input rejected
