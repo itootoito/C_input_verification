@@ -21,10 +21,14 @@ Yes. And you don't need to credit me. I have a feeling i'll be ashamed of this p
 
 - [x] add int function
 - [ ] add float function
-- [ ] add double function
+- [x] add double function
 - [ ] add add char function
 - [ ] some sort of boolean verification?
 - [ ] find a way to make the invalid input prompt to appear only once when there's a space
 
+
+#### Issues:
+ - double verification isn't able to recognize values of zero written in certain ways. currently it WILL accept writing zero as: 0,  0.0, 0.000000
+        -  fixing this is somewhat easy but may make the process more ineficient and i dont see that much use for fixing it atm. may implement fix later
 
 ###### WARNING: this is a newbie project, i am not an experienced programmer! 
