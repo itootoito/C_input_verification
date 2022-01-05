@@ -31,4 +31,4 @@ Yes. And you don't need to credit me. I have a feeling i'll be ashamed of this p
  - double verification isn't able to recognize values of zero written in certain ways. currently it WILL accept writing zero as: 0,  0.0, 0.000000
         -  fixing this is somewhat easy but may make the process more ineficient and i dont see that much use for fixing it atm. may implement fix later
 
-###### WARNING: this is a newbie project, i am not an experienced programmer! 
+###### WARNING: this is a newbie project, i am idiot
