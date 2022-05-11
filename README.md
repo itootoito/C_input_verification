@@ -14,7 +14,7 @@ the user to try again if said input is invalid. Thus making the process of input
 please. You can add anything you think will make the project better into the code.
 
 ### Can i use this?
-Yes. And you don't need to credit me. I have a feeling i'll be ashamed of this project when i become a better programmer.
+Yes. And you don't need to credit me. I have a feeling i'll be ashamed of this project if i become a better programmer.
 
 
 #### To do: 
